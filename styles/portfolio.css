@@ -109,6 +109,12 @@ p {
 .logo {
   max-height: 40px;
 }
+.img-head {
+  display: inline-block;
+  margin-left: auto;
+  margin-left: auto;
+  padding: 20px;
+}
 
 nav {
   padding: 20px 0;
