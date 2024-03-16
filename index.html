@@ -32,80 +32,103 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/logo.png" class="logo" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="ashley Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="ashley Logo"
+          />
+        </a>
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-
-          <li><a href="about.html"> About</a></li>
-          <li><a href="work.html">Work</a></li>
-          <li><a href="contact.html"> Contact</a></li>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Ashley"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Ashley's work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Ashley"> Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
-
-    <div class="hero">
-      <p>👋 Hello, I am</p>
-      <h1>Ashley Poueriet</h1>
-      <h2 class="mb-5">Front-end developer based in Florida</h2>
-      <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
-      </div>
-    </div>
-    <p class="text-center m-5">
-      Featured Project which my best projects be choice to show
-    </p>
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img src="images/item (1).png" class="img-fluid" alt="" />
-        </div>
-        <div class="col">
-          <div class="project-desciption">
-            <h2 class="mb-5">Yogurt Project</h2>
-            <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
-          </div>
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col">
-          <div class="project-desciption">
-            <h2 class="mb-5">Weather App</h2>
-            <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
-          </div>
-        </div>
-        <div class="col d-none d-lg-block">
-          <img src="images/weather app.png" class="img-fluid" alt="" />
-        </div>
-      </div>
+    <div class="content-container container">
       <div class="row">
-        <div class="col d-none d-lg-block">
-          <img src="images/Dis.png" class="img-fluid" alt="" />
-        </div>
-        <div class="col">
-          <div class="project-desciption">
-            <h2 class="mb-5">Dictionary App</h2>
-            <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+        <div class="col-lg-6">
+          <div class="content">
+            <h1 class="mb-4">Hi, I’m Ashley Poueriet</h1>
+            <h2 class="mb-4">Front-end developer based in Florida</h2>
+            <p class="mb-5">
+              I’m currently seeking new opportunities in front-end development.
+              I’m open to work remotely and have flexible hours. I’m highly
+              skilled in JavaScript and React.
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/pic.jpeg" alt="" class="img-fluid" />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Ashley"
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:ashleypoueriet@gmail.com"
+          class="email-link"
+          title="Email Ashley"
+        >
+          ashleypoueriet@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.github.com/Pouerieta"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.instragram.com/Poueriet_a"
+          target="_blank"
+          title="instragram Profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        ✌️ This website was coded by Ashley Poueriet, and is
+        <a
+          href="https://github.com/Pouerieta/portfolio-project"
+          target="_blank"
+        >
+          open-sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
